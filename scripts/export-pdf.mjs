@@ -1,10 +1,10 @@
 import puppeteer from 'puppeteer-core';
 import path from 'node:path';
-import { fileURLToPath } from 'node:url';
+import { fileURLToPath, pathToFileURL } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const out = path.resolve(__dirname, '..', 'Chatchai_Booranawiselkul_Resume.pdf');
-const url = process.env.RESUME_URL || 'http://localhost/AboutMe/resume.php';
+const url = process.env.RESUME_URL || pathToFileURL(path.resolve(__dirname, '..', 'resume.html')).href;
 const chrome = process.env.CHROME_PATH || '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
 
 const browser = await puppeteer.launch({
