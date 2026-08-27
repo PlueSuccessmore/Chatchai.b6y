@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="th">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Resume — Chatchai Booranawiselkul (EN | TH)</title>
+<meta name="description" content="One-page bilingual resume (EN/TH) for Chatchai Booranawiselkul — Full-Stack Developer / System Integrator">
+<style>
+  :root{
+    --ink:#111; --muted:#585f6a; --line:#dcdfe4; --accent:#0a66c2;
+    --pill:#f5f7fa;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0;background:#fff;color:var(--ink);font:14px/1.5 ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial}
+  a{color:var(--ink);text-decoration:none;border-bottom:1px dotted var(--line)}
+  h1,h2{margin:0}
+  h1{font-size:20px}
+  h2{font-size:12px;color:var(--muted);font-weight:700;letter-spacing:.02em;margin-bottom:6px}
+  h3{font-size:13px;margin:10px 0 4px}
+  p{margin:4px 0}
+  ul{margin:4px 0 0 18px;padding:0}
+  li{margin:3px 0}
+  .page{max-width:980px;margin:0 auto;padding:18px 20px}
+  header{display:flex;justify-content:space-between;align-items:flex-end;border-bottom:1px solid var(--line);padding-bottom:8px;margin-bottom:8px}
+  .tagline{color:var(--muted);font-style:italic;font-size:12px}
+  .contact{font-size:12px;text-align:right}
+  .grid{display:grid;grid-template-columns:1fr;gap:12px}
+  .twocol{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  .section{margin-top:6px}
+  .pill{display:inline-block;background:var(--pill);border:1px solid var(--line);border-radius:999px;padding:2px 8px;margin:3px 6px 0 0;font-size:12px}
+  .muted{color:var(--muted)}
+  .box{border:1px solid var(--line);border-radius:8px;padding:8px}
+  .small{font-size:12px}
+  /* Print = 1 A4 page */
+  @page{size:A4;margin:12mm}
+  @media print{
+    .page{padding:0}
+    a{border:0;text-decoration:none;color:inherit}
+  }
+  /* Narrow screens */
+  @media (max-width:800px){.twocol{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="page">
+  <header>
+    <div>
+      <h1>Chatchai Booranawiselkul</h1>
+      <div class="tagline">Full-Stack Developer · System Integrator — “Plain outside, real work in Git.”</div>
+    </div>
+    <div class="contact">
+      <div>Ngamwongwan, Nonthaburi</div>
+      <div>📞 <a href="tel:+66811445263">081-144-5263</a> · ✉️ <a href="mailto:plue3496@gmail.com">plue3496@gmail.com</a></div>
+      <div>🐙 <a href="https://github.com/PlueSuccessmore" target="_blank">github.com/PlueSuccessmore</a></div>
+    </div>
+  </header>
+
+  <!-- Two columns: EN (left) / TH (right) -->
+  <div class="twocol">
+    <!-- ENGLISH -->
+    <section>
+      <h2>SUMMARY (EN)</h2>
+      <p>Full-Stack engineer grown from real-world ops. From factory shifts (Mon–Sat) while finishing GED-equivalent to Air Force Special Operations, then IT degree and 5+ years modernising legacy systems into stable, observable services.</p>
+      <p>Delivered 50+ projects across Web, POS/Mobile, E-Learning, CRM, API/Integration, and ETL on Linux & AWS. Specialty: keep legacy running while migrating to Laravel/NestJS/Nuxt with CI/CD and backups.</p>
+
+      <div class="section">
+        <h2>EXPERIENCE (EN)</h2>
+        <h3>Successmore Being PCL — Full-Stack Developer / System Integrator <span class="muted">· 2020–Present</span></h3>
+        <ul>
+          <li>Own & build 50+ systems: POS (AWS), E-Learning, Stock SCM, MLM Commission, CRM/Support.</li>
+          <li>Design new APIs (NestJS) + Nuxt3 for Mobile; ETL pipelines (Python) for audit-ready data.</li>
+          <li>Legacy → Modern: PHP 5.2/CI2 to Laravel 8 / NestJS / Nuxt 3 using strangler pattern.</li>
+          <li>Ops: Ubuntu/CentOS on EC2, automated deploy/backup/monitoring; improved stability & MTTR.</li>
+        </ul>
+        <h3>T.Logical Co., Ltd. — Programmer <span class="muted">· 2019–2020</span></h3>
+        <ul>
+          <li>Web MIS & corporate campaigns; Expense system; early mobile-POS APIs.</li>
+          <li>Maintained PHP 5.2–7.x stacks and MongoDB-backed services.</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>SELECTED PROJECTS (EN)</h2>
+        <div class="grid">
+          <div class="box small"><strong>POS Modernization (AWS)</strong> — Nuxt3 + NestJS, mobile integration, EC2, auto-backup/monitor.</div>
+          <div class="box small"><strong>E-Learning Platform</strong> — courses/video, progress tracking, exec reports (Laravel + MySQL).</div>
+          <div class="box small"><strong>MLM Commission & Data</strong> — Python ETL → PostgreSQL, verifiable payout logic.</div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>SKILLS (EN)</h2>
+        <p>
+          <span class="pill">PHP (Laravel 8, CI2–4)</span>
+          <span class="pill">JS/TS · Node/Nest · Vue/Nuxt</span>
+          <span class="pill">Python (ETL/Pandas)</span>
+          <span class="pill">MySQL · PostgreSQL · MongoDB</span>
+          <span class="pill">Apache2 · Ubuntu/CentOS · AWS EC2</span>
+          <span class="pill">Docker (selective) · GitLab/GitHub CI</span>
+          <span class="pill">CI/CD · Backup · Monitoring · Redis · Cron</span>
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>EDUCATION & EARLY LIFE (EN)</h2>
+        <ul>
+          <li>Factory worker (Mon–Sat) while completing Non-Formal High School (Sun classes).</li>
+          <li>Royal Thai Air Force — Special Operations (voluntary enlisted).</li>
+          <li>B.Sc. Information Technology — Dhurakij Pundit University.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- THAI -->
+    <section>
+      <h2>สรุป (TH)</h2>
+      <p>นักพัฒนา Full-Stack ที่เติบโตจากงานหน้างานจริง: ทำงานโรงงาน จ–ส ควบคู่เรียน กศน. → ทหารอากาศหน่วยปฏิบัติการพิเศษ → จบไอทีและทำงานด้านพัฒนาระบบมากกว่า 5 ปี</p>
+      <p>ดูแล/พัฒนากว่า 50 โปรเจกต์ (Web, POS/Mobile, E-Learning, CRM, ETL) บน Linux และ AWS ถนัดย้ายระบบเก่าไประบบใหม่โดยไม่หยุดบริการ พร้อม CI/CD และสำรองข้อมูลครบ</p>
+
+      <div class="section">
+        <h2>ประสบการณ์ (TH)</h2>
+        <h3>บมจ. ซัคเซสมอร์ บีอิ้ง — Full-Stack / System Integrator <span class="muted">· 2020–ปัจจุบัน</span></h3>
+        <ul>
+          <li>รับผิดชอบระบบหลัก &gt;50 ตัว: POS (AWS), E-Learning, Stock, คอมมิชชั่น, CRM/Support</li>
+          <li>ออกแบบ API ใหม่ (NestJS) + Nuxt3 เชื่อม Mobile; วาง ETL (Python) รวมข้อมูลพร้อม audit</li>
+          <li>ยกระบบเก่า PHP 5.2/CI2 → Laravel 8 / NestJS / Nuxt 3 (Strangler pattern)</li>
+          <li>ดูแลงานปฏิบัติการบน Ubuntu/CentOS + EC2: deploy/backup/monitoring อัตโนมัติ</li>
+        </ul>
+        <h3>ที.ลอจิคอล — Programmer <span class="muted">· 2019–2020</span></h3>
+        <ul>
+          <li>Web MIS/Corporate & Expense; API สำหรับ Mobile POS</li>
+          <li>ดูแล production PHP 5.2–7.x และบริการที่ใช้ MongoDB</li>
+        </ul>
+      </div>
+
+      <div class="section">
+        <h2>ผลงานเด่น (TH)</h2>
+        <div class="grid">
+          <div class="box small"><strong>POS Modernization</strong> — แยก Nuxt3/NestJS, เชื่อม Mobile, EC2 + สำรอง/มอนิเตอร์</div>
+          <div class="box small"><strong>E-Learning</strong> — คอร์ส/วิดีโอ, ติดตามความคืบหน้า, รายงานผู้บริหาร</div>
+          <div class="box small"><strong>คอมมิชชั่น MLM</strong> — ETL รวมข้อมูล → ฐานข้อมูลกลาง ตรวจสอบได้</div>
+        </div>
+      </div>
+
+      <div class="section">
+        <h2>ทักษะ (TH)</h2>
+        <p>
+          <span class="pill">PHP (Laravel 8, CI2–4)</span>
+          <span class="pill">JS/TS · Node/Nest · Vue/Nuxt</span>
+          <span class="pill">Python (ETL/Pandas)</span>
+          <span class="pill">MySQL · PostgreSQL · MongoDB</span>
+          <span class="pill">Apache2 · Ubuntu/CentOS · AWS EC2</span>
+          <span class="pill">Docker (เลือกใช้) · GitLab/GitHub CI</span>
+          <span class="pill">CI/CD · Backup · Monitoring · Redis · Cron</span>
+        </p>
+      </div>
+
+      <div class="section">
+        <h2>การศึกษา & จุดเริ่มต้น (TH)</h2>
+        <ul>
+          <li>ทำงานโรงงาน (จ–ส) ควบคู่เรียน <strong>กศน. มัธยมปลาย</strong> (วันอาทิตย์)</li>
+          <li><strong>ทหารประจำการ หน่วยปฏิบัติการพิเศษ</strong> — กองทัพอากาศ (สมัครใจ)</li>
+          <li><strong>ปริญญาตรี IT</strong> — มหาวิทยาลัยธุรกิจบัณฑิตย์</li>
+        </ul>
+      </div>
+    </section>
+  </div>
+
+  <div class="section small muted" style="margin-top:8px;border-top:1px solid var(--line);padding-top:6px">
+    Code & portfolio: <a href="https://github.com/PlueSuccessmore" target="_blank">github.com/PlueSuccessmore</a> •
+    Print to PDF: File → Print (A4, no margins needed)
+  </div>
+</div>
+</body>
+</html>
